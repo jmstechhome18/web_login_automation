@@ -1,5 +1,5 @@
-@Library("jmsdevops@main") _
 
-pushEcrRepo(
-ecrRepoName: 'web_login_automation'
+@Library("jmsdevops@main") _
+pushDockerHub(
+dockerRepoName: 'web_login_automation_jmsth37'
 )
